@@ -1,12 +1,60 @@
-# React + Vite
+# Holidaze- booking venue
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React and Tailwind based booking venues application with venues listing, search functionality, booking,canceling booking, venue manager and venues search.
 
-Currently, two official plugins are available:
+## Project Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project follows a well-organized folder structure:
 
-## Expanding the ESLint configuration
+- **components/** - Reusable UI components
+- **pages/** - Top-level page components
+- **api/** - API service functions
+- **utils/** - Utility functions
+- **context/** - React Context providers
+- **hooks/** - Custom React hooks
+**Style/** - Tailwindcss
+## Features Implemented
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- API integration with Noroff API
+- Venue
+- Search functionality for venues plus filtering
+- Responsive design
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or newer)
+- npm 
+
+### Installation
+
+1. Clone the repository
+   ```
+   git clone https://github.com/shiwa4656/projectExam2
+
+   ```
+
+2. Install dependencies
+   ```
+   npm install
+   
+   ```
+
+3. Start the development server
+   ```
+   npm run dev
+   
+   ```
+
+
+
+4. ### Live on Netlify
+  https://xnb.netlify.app/
+
+
+  ## 📋 Project Management
+The project is organized using a GitHub Kanban board. You can view the progress and tasks here:
+📊 [GitHub Kanban Board](https://github.com/users/shiwa4656/projects/16)
+
+   
